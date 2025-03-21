@@ -1,0 +1,39 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PropertyNotMap [bootRun]" type="GradleRunConfiguration" factoryName="Gradle">
+    <ExternalSystemSettings>
+      <option name="env">
+        <map>
+          <entry key="MY_TEST_AA_0_TYPE" value="value3" />
+          <entry key="MY_TEST_AA_0_Y" value="value1" />
+          <entry key="MY_TEST_AA_0_Z" value="value2" />
+          <entry key="MY_TEST_AA_1_TYPE" value="value6" />
+          <entry key="MY_TEST_AA_1_Y" value="value4" />
+          <entry key="MY_TEST_AA_1_Z" value="value5" />
+          <entry key="MY_TEST_BB_0_TYPE" value="value8" />
+          <entry key="MY_TEST_BB_0_X" value="value7" />
+          <entry key="MY_TEST_BB_1_TYPE" value="value10" />
+          <entry key="MY_TEST_BB_1_X" value="value9" />
+          <entry key="MY_TEST_DEFAULT_TYPE" value="some_value" />
+        </map>
+      </option>
+      <option name="executionName" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$" />
+      <option name="externalSystemIdString" value="GRADLE" />
+      <option name="scriptParameters" value="" />
+      <option name="taskDescriptions">
+        <list />
+      </option>
+      <option name="taskNames">
+        <list>
+          <option value="bootRun" />
+        </list>
+      </option>
+      <option name="vmOptions" />
+    </ExternalSystemSettings>
+    <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+    <DebugAllEnabled>false</DebugAllEnabled>
+    <RunAsTest>false</RunAsTest>
+    <method v="2" />
+  </configuration>
+</component>
