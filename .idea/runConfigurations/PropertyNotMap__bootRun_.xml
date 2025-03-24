@@ -3,17 +3,10 @@
     <ExternalSystemSettings>
       <option name="env">
         <map>
-          <entry key="MY_TEST_AA_0_TYPE" value="value3" />
-          <entry key="MY_TEST_AA_0_Y" value="value1" />
-          <entry key="MY_TEST_AA_0_Z" value="value2" />
-          <entry key="MY_TEST_AA_1_TYPE" value="value6" />
-          <entry key="MY_TEST_AA_1_Y" value="value4" />
-          <entry key="MY_TEST_AA_1_Z" value="value5" />
-          <entry key="MY_TEST_BB_0_TYPE" value="value8" />
-          <entry key="MY_TEST_BB_0_X" value="value7" />
-          <entry key="MY_TEST_BB_1_TYPE" value="value10" />
-          <entry key="MY_TEST_BB_1_X" value="value9" />
-          <entry key="MY_TEST_DEFAULT_TYPE" value="some_value" />
+          <entry key="MY_TEST_BASES_0_TYPE" value="value4" />
+          <entry key="MY_TEST_CUSTOMS_0_TYPE" value="value3" />
+          <entry key="MY_TEST_CUSTOMS_0_Y" value="value1" />
+          <entry key="MY_TEST_CUSTOMS_0_Z" value="value2" />
         </map>
       </option>
       <option name="executionName" />

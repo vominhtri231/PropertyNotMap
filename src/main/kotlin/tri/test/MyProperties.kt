@@ -7,9 +7,8 @@ import org.springframework.stereotype.Component
 @ConfigurationProperties(prefix = "my.test")
 @Component
 class MyProperties {
-    var base: Base = Base()
-    var customAList: List<CustomA> = listOf()
-    var customBList: List<CustomB> = listOf()
+    var customs: List<CustomA> = listOf()
+    var bases: List<Base> = listOf()
 
     open class Base(
         var type: String = ""
@@ -18,9 +17,5 @@ class MyProperties {
     class CustomA(
         var y: String = "",
         var z: String = "",
-    ) : Base()
-
-    class CustomB(
-        var x: String = "",
     ) : Base()
 }

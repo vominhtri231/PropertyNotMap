@@ -1,7 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.9.23"
-    id("org.springframework.boot") version "3.4.1"
-    id("org.jetbrains.kotlin.plugin.spring") version "2.1.0"
+    kotlin("jvm") version "2.1.20"
+    id("org.springframework.boot") version "3.4.4"
+    id("org.jetbrains.kotlin.plugin.spring") version "2.1.20"
     id("io.spring.dependency-management") version "1.1.7"
 }
 
@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation(kotlin("reflect"))
 }
 
@@ -27,4 +28,8 @@ java {
         languageVersion.set(JavaLanguageVersion.of(21))
     }
     withSourcesJar()
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
